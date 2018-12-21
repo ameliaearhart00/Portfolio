@@ -1,0 +1,262 @@
+
+/* AUBREY MANSON PORTFOLIO
+STYLESHEET */
+
+
+
+/* ****************************** */
+/* Page Container */
+/* ****************************** */
+
+.container {
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+
+
+/* ****************************** */
+/* Navigation Bar */
+/* ****************************** */
+
+nav {
+    background-color: lightpink;
+    height: 100px;
+    padding: 10px;
+}
+
+nav a {
+    color: green;
+}
+
+.nav-link {
+    color: yellow;
+}
+
+ /* this pseudo class will change the link tag <a> color when you hover on it */
+a:hover {
+    color: lightblue;
+  }
+
+a:active {
+    color: yellow;
+  }
+
+
+@media (max-width: 500px) {
+    nav {
+        display: none;
+    }
+}
+
+/* ****************************** */
+/* Page Hero/Jumbotron */
+/* ****************************** */
+
+.jumbotron-1 {
+    background-color: yellow;
+    height: 500px;
+}
+
+
+
+
+/* ****************************** */
+/* Headings and Body Text */
+/* ****************************** */
+
+h1 {
+    font-family: Ubuntu, Open Sans, Sans Serif;
+    font-size: 36px;
+    padding: 10px;
+}
+
+
+h2 {
+    font-family: Ubuntu, Open Sans, Sans Serif;
+    font-size: 32px;
+    padding: 10px;
+}
+
+
+h3 {
+    font-family: Ubuntu, Open Sans, Sans Serif;
+    font-size: 24px;
+    padding: 5px;
+}
+
+h4 {
+    font-family: Ubuntu, Open Sans, Sans Serif;
+    font-size: 22px;
+    padding: 10px
+}
+
+
+p {
+    font-family: Ubuntu, Open Sans, Sans Serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+a {
+    font-family: Ubuntu, Open Sans, Sans Serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************** */
+/* Buttons */
+/* ****************************** */
+
+.btn {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: yellow;
+}
+
+.btn:hover {
+    background: #5ED0EC;
+    color: white;
+}
+
+.btn:disabled{
+    background: gray;
+    color: white;
+}
+
+
+
+
+
+/* ****************************** */
+/* Cards */
+/* ****************************** */
+
+
+.portfolio {
+
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.card {
+    width: 40%;
+    height: 529px;
+    background-color: lightsalmon;
+    border-radius: 15px hotpink;
+    padding: 10px;
+    flex: flex;
+}
+
+
+
+.card-body {
+    width: 300px;
+    height: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+
+.card-title {
+
+}
+
+
+.card-subtitle {
+
+}
+
+
+
+
+
+.card-text {
+
+
+}
+
+
+.card-link {
+
+}
+
+
+/* display: block;
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    border-radius: 10%;
+    margin: 0.5em;
+    border: 1px solid white;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.4) */
+
+    /* .doi-icons img {
+        margin-top: 40px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        justify-content: flex-start; */
+
+
+
+
+
+/* ****************************** */
+/* About Me/Contact*/
+/* ****************************** */
+
+.jumbotron-about {
+    background-color: green;
+    height: 500px;
+    padding: 50px;
+}
+
+.container-about {
+    background-color: lightblue;
+    margin-top: 10px;
+    height: 400px;
+}
+
+
+/* ****************************** */
+/* Footer */
+/* ****************************** */
+
+.footer {
+    background-color: hotpink;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* footer iconography */
+.social-icons i {
+    font-size: 48px;
+    color: black;
+    padding: 10px;
+}
+
+.social-icons i:hover {
+    color: #5ED0EC;
+}
+
+
