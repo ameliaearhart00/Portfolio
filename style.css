@@ -27,11 +27,12 @@ nav {
 
 nav a {
     color: green;
+    font: Ubuntu, 32px;
 }
 
-.nav-link {
+/* .nav-link {
     color: yellow;
-}
+} */
 
  /* this pseudo class will change the link tag <a> color when you hover on it */
 a:hover {
@@ -66,8 +67,8 @@ a:active {
 /* ****************************** */
 
 h1 {
-    font-family: Ubuntu, Open Sans, Sans Serif;
-    font-size: 36px;
+    font-family: Helvetica Nue, Open Sans, Sans Serif;
+    font-size: 54px;
     padding: 10px;
 }
 
@@ -82,19 +83,25 @@ h2 {
 h3 {
     font-family: Ubuntu, Open Sans, Sans Serif;
     font-size: 24px;
-    padding: 5px;
+    padding: 10px;
 }
 
 h4 {
-    font-family: Ubuntu, Open Sans, Sans Serif;
-    font-size: 22px;
-    padding: 10px
+    font-family: Helvetica Nue, Open Sans, Sans Serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h5 {
+    font-family: Ubuntu Bold, Open Sans, Sans Serif;
+    font-size: 16px;
+    padding: 10px;
 }
 
 
 p {
-    font-family: Ubuntu, Open Sans, Sans Serif;
-    font-size: 18px;
+    font-family: Helvetica Nue, Open Sans, Sans Serif;
+    font-size: 16px;
     padding: 5px;
 }
 
@@ -120,9 +127,10 @@ a {
 
 .btn {
     height: 50px;
-    width: 100px;
     border-radius: 30px;
     background-color: yellow;
+    position: center;
+    text: center;
 }
 
 .btn:hover {
@@ -159,7 +167,8 @@ a {
 
 
 .card {
-    width: 40%;
+    display: block;
+    width: 447px;
     height: 529px;
     background-color: lightsalmon;
     border-radius: 15px hotpink;
@@ -170,9 +179,9 @@ a {
 
 
 .card-body {
-    width: 300px;
-    height: 20px;
+    height: 50px;
     background-color: lightgoldenrodyellow;
+    text-align: center;
 }
 
 
@@ -198,6 +207,39 @@ a {
 .card-link {
 
 }
+
+
+@media (min-width:700px) {
+    .row-container {
+
+    }
+    .card {
+
+    }
+    .card-body {
+
+    }
+}
+
+@media (max-width:500px) {
+    .row-container {
+
+    }
+    .card {
+
+    }
+    .card-body {
+
+    }
+
+}
+
+
+
+
+
+
+
 
 
 /* display: block;
@@ -226,16 +268,25 @@ a {
 
 .jumbotron-about {
     background-color: green;
-    height: 500px;
+    height: 600px;
     padding: 50px;
 }
 
 .container-about {
     background-color: lightblue;
     margin-top: 10px;
-    height: 400px;
+    height: 500px;
 }
 
+.img-profile {
+    height: 300px;
+    padding: 30px;
+}
+
+.jumbotron-about p {
+    font-size: 24px;
+    padding: 10px;
+}
 
 /* ****************************** */
 /* Footer */
@@ -243,7 +294,7 @@ a {
 
 .footer {
     background-color: hotpink;
-    height: 200px;
+    height: 300px;
     margin-bottom: 10px;
     padding: 10px;
 }
