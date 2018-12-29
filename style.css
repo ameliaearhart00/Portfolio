@@ -1,53 +1,47 @@
-
 /* AUBREY MANSON PORTFOLIO
 STYLESHEET */
-
-
 
 /* ****************************** */
 /* Page Container */
 /* ****************************** */
 
 .container {
-    background-color: lightblue;
-    margin-top: 10px;
+  background-color: lightblue;
+  margin-top: 10px;
 }
-
-
 
 /* ****************************** */
 /* Navigation Bar */
 /* ****************************** */
 
 nav {
-    background-color: lightpink;
-    height: 100px;
-    padding: 10px;
+  background-color: lightpink;
+  height: 100px;
+  padding: 10px;
 }
 
 nav a {
-    color: green;
-    font: Ubuntu, 32px;
+  color: green;
+  font: Ubuntu, 32px;
 }
 
 /* .nav-link {
     color: yellow;
 } */
 
- /* this pseudo class will change the link tag <a> color when you hover on it */
+/* this pseudo class will change the link tag <a> color when you hover on it */
 a:hover {
-    color: lightblue;
-  }
+  color: lightblue;
+}
 
 a:active {
-    color: yellow;
-  }
-
+  color: yellow;
+}
 
 @media (max-width: 500px) {
-    nav {
-        display: none;
-    }
+  nav {
+    display: none;
+  }
 }
 
 /* ****************************** */
@@ -55,192 +49,139 @@ a:active {
 /* ****************************** */
 
 .jumbotron-1 {
-    background-color: yellow;
-    height: 500px;
+  background-color: yellow;
+  height: 500px;
 }
-
-
-
 
 /* ****************************** */
 /* Headings and Body Text */
 /* ****************************** */
 
 h1 {
-    font-family: Helvetica Nue, Open Sans, Sans Serif;
-    font-size: 54px;
-    padding: 10px;
+  font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-size: 54px;
+  padding: 10px;
 }
-
 
 h2 {
-    font-family: Ubuntu, Open Sans, Sans Serif;
-    font-size: 32px;
-    padding: 10px;
+  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-size: 32px;
+  padding: 10px;
 }
 
-
 h3 {
-    font-family: Ubuntu, Open Sans, Sans Serif;
-    font-size: 24px;
-    padding: 10px;
+  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-size: 24px;
+  padding: 10px;
 }
 
 h4 {
-    font-family: Helvetica Nue, Open Sans, Sans Serif;
-    font-size: 20px;
-    padding: 10px;
+  font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-size: 20px;
+  padding: 10px;
 }
 
 h5 {
-    font-family: Ubuntu Bold, Open Sans, Sans Serif;
-    font-size: 16px;
-    padding: 10px;
+  font-family: Ubuntu Bold, Open Sans, Sans Serif;
+  font-size: 16px;
+  padding: 10px;
 }
 
-
 p {
-    font-family: Helvetica Nue, Open Sans, Sans Serif;
-    font-size: 16px;
-    padding: 5px;
+  font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-size: 16px;
+  padding: 5px;
 }
 
 a {
-    font-family: Ubuntu, Open Sans, Sans Serif;
-    font-size: 18px;
-    padding: 5px;
+  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-size: 18px;
+  padding: 5px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ****************************** */
 /* Buttons */
 /* ****************************** */
 
 .btn {
-    height: 50px;
-    border-radius: 30px;
-    background-color: yellow;
-    position: center;
-    text: center;
+  height: 50px;
+  border-radius: 30px;
+  background-color: yellow;
+  position: center;
+  text: center;
 }
 
 .btn:hover {
-    background: #5ED0EC;
-    color: white;
+  background: #5ed0ec;
+  color: white;
 }
 
-.btn:disabled{
-    background: gray;
-    color: white;
+.btn:disabled {
+  background: gray;
+  color: white;
 }
-
-
-
-
 
 /* ****************************** */
 /* Cards */
 /* ****************************** */
 
-
 .portfolio {
-
 }
 
 .row-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-
 
 .card {
-    display: block;
-    width: 447px;
-    height: 529px;
-    background-color: lightsalmon;
-    border-radius: 15px hotpink;
-    padding: 10px;
-    flex: flex;
+  display: block;
+  width: 447px;
+  height: 529px;
+  background-color: lightsalmon;
+  border-radius: 15px hotpink;
+  padding: 10px;
+  flex: flex;
 }
-
-
 
 .card-body {
-    height: 50px;
-    background-color: lightgoldenrodyellow;
-    text-align: center;
+  height: 50px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
 }
-
 
 .card-title {
-
 }
-
 
 .card-subtitle {
-
 }
-
-
-
-
 
 .card-text {
-
-
 }
-
 
 .card-link {
-
 }
 
-
-@media (min-width:700px) {
-    .row-container {
-
-    }
-    .card {
-
-    }
-    .card-body {
-
-    }
+@media (min-width: 700px) {
+  .row-container {
+  }
+  .card {
+  }
+  .card-body {
+  }
 }
 
-@media (max-width:500px) {
-    .row-container {
-
-    }
-    .card {
-
-    }
-    .card-body {
-
-    }
-
+@media (max-width: 500px) {
+  .row-container {
+  }
+  .card {
+  }
+  .card-body {
+  }
 }
-
-
-
-
-
-
-
-
 
 /* display: block;
     text-align: center;
@@ -251,41 +192,37 @@ a {
     border: 1px solid white;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.4) */
 
-    /* .doi-icons img {
+/* .doi-icons img {
         margin-top: 40px;
         width: 100px;
         height: 100px;
         padding: 10px;
         justify-content: flex-start; */
 
-
-
-
-
 /* ****************************** */
 /* About Me/Contact*/
 /* ****************************** */
 
 .jumbotron-about {
-    background-color: green;
-    height: 600px;
-    padding: 50px;
+  background-color: green;
+  height: 600px;
+  padding: 50px;
 }
 
 .container-about {
-    background-color: lightblue;
-    margin-top: 10px;
-    height: 500px;
+  background-color: lightblue;
+  margin-top: 10px;
+  height: 500px;
 }
 
 .img-profile {
-    height: 300px;
-    padding: 30px;
+  height: 300px;
+  padding: 30px;
 }
 
 .jumbotron-about p {
-    font-size: 24px;
-    padding: 10px;
+  font-size: 24px;
+  padding: 10px;
 }
 
 /* ****************************** */
@@ -293,21 +230,19 @@ a {
 /* ****************************** */
 
 .footer {
-    background-color: hotpink;
-    height: 300px;
-    margin-bottom: 10px;
-    padding: 10px;
+  background-color: hotpink;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 /* footer iconography */
 .social-icons i {
-    font-size: 48px;
-    color: black;
-    padding: 10px;
+  font-size: 48px;
+  color: black;
+  padding: 10px;
 }
 
 .social-icons i:hover {
-    color: #5ED0EC;
+  color: #5ed0ec;
 }
-
-
