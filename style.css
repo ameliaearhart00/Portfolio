@@ -22,12 +22,15 @@ nav {
 
 nav a {
   color: green;
-  font: Ubuntu, 32px;
+  font: Ubuntu, 36px;
+  padding: 20px;
+  text-align: right;
 }
 
-/* .nav-link {
-    color: yellow;
-} */
+nav h2 {
+  padding: 20px;
+  text-align: left;
+}
 
 /* this pseudo class will change the link tag <a> color when you hover on it */
 a:hover {
@@ -42,6 +45,9 @@ a:active {
   nav {
     display: none;
   }
+  nav a {
+    display: none;
+  }
 }
 
 /* ****************************** */
@@ -51,6 +57,12 @@ a:active {
 .jumbotron-1 {
   background-color: yellow;
   height: 500px;
+  margin-top: 50px;
+}
+
+.jumbotron-text {
+  padding: 15px;
+  text: center;
 }
 
 /* ****************************** */
@@ -60,43 +72,36 @@ a:active {
 h1 {
   font-family: Helvetica Nue, Open Sans, Sans Serif;
   font-size: 54px;
-  padding: 10px;
 }
 
 h2 {
   font-family: Ubuntu, Open Sans, Sans Serif;
   font-size: 32px;
-  padding: 10px;
 }
 
 h3 {
   font-family: Ubuntu, Open Sans, Sans Serif;
   font-size: 24px;
-  padding: 10px;
 }
 
 h4 {
   font-family: Helvetica Nue, Open Sans, Sans Serif;
   font-size: 20px;
-  padding: 10px;
 }
 
 h5 {
   font-family: Ubuntu Bold, Open Sans, Sans Serif;
   font-size: 16px;
-  padding: 10px;
 }
 
 p {
   font-family: Helvetica Nue, Open Sans, Sans Serif;
   font-size: 16px;
-  padding: 5px;
 }
 
 a {
   font-family: Ubuntu, Open Sans, Sans Serif;
   font-size: 18px;
-  padding: 5px;
 }
 
 /* ****************************** */
@@ -106,7 +111,7 @@ a {
 .btn {
   height: 50px;
   border-radius: 30px;
-  background-color: yellow;
+  background-color: gray;
   position: center;
   text: center;
 }
@@ -125,10 +130,11 @@ a {
 /* Cards */
 /* ****************************** */
 
-.portfolio {
+.portfolio-container {
+  background: white;
 }
 
-.row-container {
+.col-card {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -139,12 +145,12 @@ a {
 
 .card {
   display: block;
-  width: 447px;
-  height: 529px;
+  width: 450px;
+  height: 450px;
   background-color: lightsalmon;
   border-radius: 15px hotpink;
-  padding: 10px;
   flex: flex;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .card-body {
@@ -154,15 +160,15 @@ a {
 }
 
 .card-title {
+  align: center;
 }
 
 .card-subtitle {
+  align: center;
 }
 
 .card-text {
-}
-
-.card-link {
+  align: center;
 }
 
 @media (min-width: 700px) {
@@ -205,18 +211,26 @@ a {
 
 .jumbotron-about {
   background-color: green;
-  height: 600px;
-  padding: 50px;
-}
-
-.container-about {
-  background-color: lightblue;
-  margin-top: 10px;
   height: 500px;
 }
 
+.container-about {
+  background-color: white;
+  margin-top: 10px;
+  height: 400px;
+}
+
+.row-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .img-profile {
-  height: 300px;
+  height: 400px;
   padding: 30px;
 }
 
@@ -231,7 +245,7 @@ a {
 
 .footer {
   background-color: hotpink;
-  height: 300px;
+  height: 200px;
   margin-bottom: 10px;
   padding: 10px;
 }
